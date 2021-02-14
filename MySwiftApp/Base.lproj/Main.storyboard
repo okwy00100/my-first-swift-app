@@ -20,6 +20,9 @@
                                 <rect key="frame" x="190" y="683" width="34" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Start"/>
+                                <connections>
+                                    <action selector="buttonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="i2j-4y-h0Z"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="© 2021" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gBr-ua-9O2">
                                 <rect key="frame" x="177" y="841" width="57" height="21"/>
@@ -43,6 +46,9 @@
                             <constraint firstItem="8i9-P1-B15" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="Vwu-xA-wg0"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="button" destination="d7n-fF-dJJ" id="rSL-1R-nut"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
